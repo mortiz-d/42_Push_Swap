@@ -6,7 +6,7 @@
 /*   By: mortiz-d <mortiz-d@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/14 11:44:35 by mortiz-d          #+#    #+#             */
-/*   Updated: 2022/01/19 18:12:53 by mortiz-d         ###   ########.fr       */
+/*   Updated: 2025/02/06 15:27:35 by mortiz-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ static t_list	**ft_read_line(t_list **list_a, char *line)
 	num = 0;
 	list_a = ft_calloc(sizeof(t_list), 1);
 	lst = ft_split(line, ' ');
-	while (lst[i] != '\0')
+	while (lst[i] != 0)
 	{
 		num = ft_atoi(lst[i]);
 		aux = ft_lstnew(num);
