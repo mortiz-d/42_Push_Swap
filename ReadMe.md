@@ -1,6 +1,6 @@
 # push_swap
-
-## Las Reglas
+(como ordenar una serie de numeros usando dos pilas y una serie de instrucciones).
+## Reglas
 
 Tienes dos pilas: **pila a** y **pila b**. El objetivo es ordenar los números en **pila a** en orden ascendente utilizando la menor cantidad de operaciones posible.
 
@@ -21,7 +21,7 @@ Tienes dos pilas: **pila a** y **pila b**. El objetivo es ordenar los números e
 - **rrb (reverse rotate b)**: Desplaza todos los elementos de **pila b** hacia abajo por una posición. El último elemento pasa a ser el primero.
 - **rrr**: Realiza **rra** y **rrb** simultáneamente.
 
-## V.2 Ejemplo
+## Ejemplo
 
 Aquí hay un ejemplo de cómo funcionan las operaciones con una entrada de muestra.
 
@@ -64,7 +64,7 @@ pila a: 1 2 3 5 6 8 pila b: _ _
 
 Los números en **pila a** ahora están ordenados y se utilizaron 12 operaciones.
 
-## V.3 El Programa: push_swap
+## Programa: push_swap
 
 ### Requisitos del Programa:
 
