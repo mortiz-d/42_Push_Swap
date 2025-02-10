@@ -1,5 +1,6 @@
 # push_swap
 (como ordenar una serie de numeros usando dos pilas y una serie de instrucciones).
+![sort_100](./req/sort_100.gif)
 ## Reglas
 
 Tienes dos pilas: **pila a** y **pila b**. El objetivo es ordenar los números en **pila a** en orden ascendente utilizando la menor cantidad de operaciones posible.
@@ -108,3 +109,6 @@ OK
 ```
 
 Si la salida es incorrecta, el programa checker_OS devolverá "KO".
+
+![sort_10](./req/sort_10.gif)
+![sort_500](./req/sort_500.gif)
